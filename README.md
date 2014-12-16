@@ -6,16 +6,18 @@ A command line tool for making power hour playlists in python.
 
 PyPH requires a few libraries to run properly. On OSX run:
 ```
-pip install pydub
+$> pip install pydub
+$> pip install click
 ```
 and 
 ```
-pip install click
+$> brew install ffmpeg --with-libvorbis --with-ffplay --with-theora
 ```
-and finally
+and to pull PyPH
 ```
-brew install ffmpeg --with-libvorbis --with-ffplay --with-theora
+$> git clone https://github.com/ryanquinn3/PyPH
 ```
+
 
 ##Usage
 
